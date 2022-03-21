@@ -1,0 +1,20 @@
+CLS
+PLAY "l8"
+DO UNTIL INKEY$ <> ""
+   PLAY "o" + "0"
+   PLAY "cdefgab"
+   PLAY "O" + "1"
+   PLAY "defgab"
+   PLAY "o" + "2"
+   PLAY "c"
+   PLAY "defgab"
+   PLAY "o" + "3"
+   PLAY "c"
+   PLAY "O" + "4"
+   PLAY "defgab"
+   PLAY "o" + "5"
+   PLAY "c"
+   PLAY "o" + "6"
+   PLAY "cdefgab"
+LOOP
+
